@@ -53,9 +53,9 @@ class CreditAppServiceTest {
         final AppRequest request = new AppRequest();
         request.setIdentityNo("19282190784");
         request.setSalary(BigDecimal.valueOf(10));
-        request.setName("Hasan");
+        request.setName("charles");
         request.setPhoneNumber("213131313");
-        request.setSurname("Ucar");
+        request.setSurname("bukowski");
 
         final AppResponse expectedResult = AppResponse.builder()
                 .appResult(Boolean.FALSE)
